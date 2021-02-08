@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+@font-face {
+    font-family:'yekan';
+    src:url('../fonts/Yekan.eot');
+    src:url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"),
+    url('../fonts/Yekan.woff') format("woff"),
+    url('../fonts/Yekan.ttf') format("truetype"),
+    url('../fonts/Yekan.svg#yekan') format("svg");
+    font-style:normal;
+    font-weight:normal;
+}
+body
+{
+    background:#F1F1F1;
+    font-family: Yekan;
+    direction: rtl;
+}
+#top_menu
+{
+    width:93%;
+    height:60px;
+    margin:auto;
+    background:#000000;
+}
+ul
+{
+    padding-top:16px;
+    width:100%;
+}
+.img
+{
+    width:100%;
+}
+ul li
+{
+    float:right;
+    list-style:none;
+    font-size:14px;
+    margin-top:0px;
+    padding-right:15px;
+    color:#ffffff;
+}
+ul li a
+{
+    color:#9d9d9d;
+    text-decoration:none;
+}
+ul li a:hover
+{
+    color:#ffffff;
+}
+#content
+{
+    width:93%;
+    margin:auto;
+}
+#right_box
+{
+    width:70%;
+    float:right;
+}
+#left_box
+{
+    width:28%;
+    float:right;
+    margin-right:2%;
+    margin-top:20px;
+}
+.product_box
+{
+    background:#ffffff;
+    text-align: justify;
+    margin-top:20px;
+}
+.product_text
+{
+    padding-right:15px;
+    padding-left:15px;
+}
+.product_box_title
+{
+    padding-top:10px;
+}
+.product_box_title p a
+{
+    color:#000000;
+    text-decoration:none;
+}
+.more
+{
+    width:80px;
+    height:30px;
+    border:1px solid #F1F1F1;
+    text-align:center;
+    float:left;
+    margin-left:30px;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+a
+{
+    color:#000000;
+    text-decoration:none;
+}
+.menu_box
+{
+    background-color: #fff;
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+}
+.menu_box_title
+{
+    height: 40px;
+    width:100%;
+}
+.line
+{
+    width:100%;
+    height:1.3px;
+    background:#F1F1F1;
+    margin-top:10px;
+}
+
+.ck_div1
+{
+    width:99%;
+    margin:20px auto;
+    background:#f7f9fa;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:5px;
+    clear:both;
+
+}
+.ck_div1 p
+{
+    padding-right:15px;
+    padding-left:15px;
+}
+#tbl_cart
+{
+    width: 90%;
+    border-top: 1px solid #62b965;
+    border-right: 1px solid #62b965;
+    margin: 1em auto;
+    border-collapse: collapse;
+    direction: rtl;
+}
+#tbl_cart th
+{
+    font-weight: bold;
+    letter-spacing: 0;
+    text-align: center;
+    border-bottom: 1px solid #62b965;
+    border-left: 1px solid #62b965;
+    padding: .3em 1em;
+    font-size: 15px;
+}
+#tbl_cart td
+{
+    border-bottom: 1px solid #62b965;
+    border-left: 1px solid #62b965;
+    padding: .3em 1em;
+    text-align: center;
+}
+.p_img
+{
+    height:150px;
+    width:200px;
+    float:right;
+    margin-top:20px;
+    margin-right:15px;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom:40px;
+    border-radius: 4px;
+    direction:rtl;
+    float:right;
+}
+.pagination li
+{
+    float:right;
+    list-style:none;
+    padding-right:0px !important;
+}
+.pagination li span
+{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857;
+    color: #337AB7;
+    text-decoration: none;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+.pagination li a
+{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857;
+    color: #337AB7;
+    text-decoration: none;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+.pagination .active  span
+{
+    z-index: 2;
+    color: #FFF;
+    cursor: default;
+    background-color: #337AB7;
+    border-color: #337AB7;
+}
+.img2
+{
+    width:500px;
+}
+input[type="submit"]
+{
+    background-color: #337AB7;
+    border:1px solid #337AB7;
+    color:#ffffff;
+    font-family:Yekan;
+    padding-right:10px;
+    padding-left:10px;
+}
+.input {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    height: 25px;
+    width:240px;
+    margin-right:10px;
+    margin-top:10px;
+}
+.li-menu
+{
+    margin-right: 15px;
+    margin-left: 15px;
+    list-style: none;
+    margin-bottom:0px;
+    float:none;
+}
+.children_li
+{
+    margin-right:10px;
+    list-style: circle !important;
+    float:none;
+}

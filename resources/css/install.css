@@ -1,0 +1,77 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    direction:rtl;
+    background:#f1f1f1;
+    font-family:Yekan;
+}
+@font-face
+{
+    font-family:'Yekan';
+    src:url('../fonts/Yekan.ttf') format('truetype');
+}
+@font-face
+{
+    font-family:'BYekan';
+    src:url('../fonts/Yekan.ttf') format('truetype');
+}
+#box
+{
+    width:800px;
+    margin:80px auto;
+    
+    background:white;
+    border-radius:5px;
+  
+}
+a
+{
+    text-decoration:none;
+    color:#000000;
+}
+.control-label
+{
+    float:right;
+    margin-right:40px;
+    margin-top:20px;
+    width:120px;
+}
+.inputfiled
+{
+    width:250px;
+    height:25px;
+    margin-top:10px;
+    margin-right:45px;
+    border:1px solid #d8d5d5;
+    font-size:17px;
+    font-family:MITRA;
+}
+.help-block
+{
+    float:left;
+    color:red;
+    text-align:right;
+    width:300px;
+    margin-top:20px;
+}
+.btn
+{
+     background:#f1f1f1;
+     width:90px;text-align:
+     center;height:30px;
+     line-height:30px;
+     margin-right:40px;
+     margin-top:20px;
+     font-family:Yekan;
+     border:1px solid #f1f1f1;
+     font-size:16px;
+}
+#install tr td
+{
+    padding-right:40px;
+    padding-top:10px;
+}

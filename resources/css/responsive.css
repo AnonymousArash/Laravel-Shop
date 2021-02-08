@@ -1,0 +1,44 @@
+@media screen and (max-width:525px)
+{
+  #top_menu
+  {
+     height:190px;
+  }
+
+  ul li
+  {
+      float:none;
+      text-align:center;
+  }
+  #right_box
+  {
+      width:100%;
+  }
+  #left_box
+  {
+      width:100%;
+  }
+  .img
+  {
+      width:80%;
+      margin-right:10%;
+  }
+
+}
+@media screen and (max-width:800px)
+{
+    #right_box
+    {
+        width:100%;
+    }
+    #left_box
+    {
+        width:100%;
+        margin-right:0px;
+    }
+    .img
+    {
+        width:80%;
+        margin-right:10%;
+    }
+}
